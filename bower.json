@@ -7,5 +7,16 @@
     "signalr"
   ],
   "main": "jquery.signalR.js",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "homepage": "http://signalr.net",
+  "authors": [
+    "Microsoft"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
