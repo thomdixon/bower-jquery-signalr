@@ -1,0 +1,7 @@
+#!/bin/sh
+
+version=`ls -1d packages/Microsoft.AspNet.SignalR.JS* | perl -pe 's/.*?([0-9]+[.0-9]+$)/\1/'`
+
+echo Update bower.json version to $version
+
+sed -i -e s/\"version\":.*/\"version\":\ \"${version}\",/g bower.json
